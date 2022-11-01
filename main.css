@@ -429,7 +429,7 @@ hr {
     
     .intro-socials {
         margin-left: 0px;
-        margin-top: 100px;
+        margin-top: 200px;
         margin-bottom: 300px;
     }
     /* about */
@@ -443,8 +443,8 @@ hr {
     }
     .about-info > p {
         display: block;
-        width: 360pc;
-        margin-left: 10px;
+        width: 360px;
+        margin-left: 20px;
         font-size: 20px;
     }
     .about-span {
@@ -545,6 +545,9 @@ hr {
     }
     .dev {
         font-size: 50px
+    }
+    .intro-socials {
+        margin-top: 100px;
     }
     .nav-contact {
         margin-left: 0px;
