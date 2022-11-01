@@ -66,7 +66,7 @@ li {
 }
 .nav-contact:hover {
         border: 1px solid grey;
-    }
+}
 .front {
     font-size: 100px;
     z-index: 5;
@@ -416,7 +416,17 @@ hr {
         margin-left: 20px;
         margin-top: -245px;
         margin-right: -190px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid white;
+        width: 100px;
+        padding: 7px;
+        text-align: center;
+        display: inline-block;
     }
+    
     .intro-socials {
         margin-left: 0px;
         margin-top: 200px;
