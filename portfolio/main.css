@@ -1,0 +1,537 @@
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Clash Display', sans-serif;
+    background-color: #111111;
+    color: white;
+}
+#home {
+    margin-left: 60px;
+}
+#logo {
+    font-size: 20px;
+    text-decoration: none;
+    white-space: pre;
+    font-weight: 300;
+    margin-left: -50px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 0;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: -35px;
+    margin-top: -120px;
+}
+li {
+    padding: 5px 20px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+}
+.nav-contact {
+    margin-left: 1620px;
+    margin-top: -200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+    width: 130px;
+    padding: 7px;
+    text-align: center;
+    display: inline-block;
+}
+.nav-contact:hover {
+        border: 1px solid grey;
+    }
+.front {
+    font-size: 100px;
+    z-index: 5;
+}
+.front-link {
+    background-color: orange;
+    width: 670px;
+    height: 35px;
+    position: absolute;
+    margin-top: 59px;
+    margin-left: -10px;
+    z-index: -1;
+}
+#intro {
+    margin-top: -50px;
+}
+.dev {
+    font-size: 170px;
+}
+.dev2 {
+    font-size: 150px;
+}
+.intro-p ,.intro-p2{
+    font-size: 28px;
+    font-weight: 200;
+    max-width: 800px;
+    margin-bottom: 200px;
+    display: inline-block;
+    margin-right: 850px;
+}
+.social-links {
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+.social-links:hover {
+    color: grey;
+}
+
+/* about */
+#about {
+    margin-left: 60px;
+    margin-bottom: 150px;
+}
+.about-info h1,
+.about p {
+    vertical-align: top;
+}
+.about-info > h1 {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+.about-info > p {
+    display: inline-block;
+    font-size: 25px;
+    width: 650px;
+    margin-top: 18px;
+    text-align: justify;
+}
+.about-column1,
+.about-column2{
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: top;
+    margin-top: 50px;
+}
+.about-span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-link {
+    margin-left: 200px;
+    margin-top: 250px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.about-link:hover {
+    border: 1px solid grey;
+}
+/* projects */
+#projects{
+    position: relative;
+}
+.project > h1,
+.project > h1{
+    vertical-align:sub;
+}
+.projects-h1 {
+    font-size: 130px;
+    font-weight: bolder;
+    margin-left: 50px;
+    text-transform:capitalize;
+    display: inline-block;
+    margin-right: 7px;
+}
+.projects-h1:hover {
+    color: gray
+}
+hr {
+    display: block;
+    background-color: white;
+}
+.project p{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+    width: 130px;
+    padding: 7px;
+    text-align: center;
+    display: inline-block;
+}
+/* .project p:hover {
+    color: grey;
+} */
+/* contact */
+#contact {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.contact-title1 {
+    font-size: 160px;
+}
+.contact-title2 {
+    font-size: 160px;
+    text-align: right;
+    white-space: pre;
+}
+.contact-title3 {
+    font-size: 160px;
+}
+.contact-title4 {
+    font-size: 160px;
+    text-align: right;
+    white-space: pre;
+    margin-top: -150px;
+}
+#contact h3 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact-h1  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+}
+.intro-link3 {
+    display: inline;
+    background-color: orange;
+    width: 193px;
+    height: 10px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -5px;
+    z-index: -1;
+}
+.intro-link6 {
+    display: inline;
+    background-color: orange;
+    width: 193px;
+    height: 10px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -5px;
+    z-index: -1;
+}
+
+.contact-links {
+    margin-top: 70px;
+}
+.contact-links2 {
+    margin-top: -200px;
+}
+.contact-h2  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 250px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.intro-link4 {
+    display: inline;
+    background-color: orange;
+    width: 160px;
+    height: 10px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 240px;
+    z-index: -1;
+}
+.intro-link7 {
+    display: inline;
+    background-color: orange;
+    width: 160px;
+    height: 10px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 240px;
+    z-index: -1;
+}
+.contact-h3  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 470px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.intro-link5 {
+    display: inline;
+    background-color: orange;
+    width: 120px;
+    height: 10px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 465px;
+    z-index: -1;
+}
+.intro-link8 {
+    display: inline;
+    background-color: orange;
+    width: 120px;
+    height: 10px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 465px;
+    z-index: -1;
+}
+#contact a:hover {
+    color: gray;
+}
+#contact p {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* media queries Desktop */
+@media screen and (min-width: 1280px) {
+    #logo {
+        font-size: 20px;
+    }
+    li {
+        font-size: 20px;
+    }
+    .nav-contact {
+        margin-left: 1620px;
+        margin-top: -200px;
+    }
+    #intro {
+        margin: 0px 0px 300px 0px
+    }
+    .front {
+        font-size: 150px;
+    }
+    .dev {
+        font-size: 200px;
+    }
+    .front-link {
+        margin-top: 80px;
+        width: 1010px;
+    }
+    #about {
+        margin-bottom: 250px;
+    }
+    .about-info > p{
+        margin-left: 300px;
+    }
+    #about {
+        margin-bottom: 300px;
+    }
+    .about-link {
+        margin-left: 200px;
+        margin-top: 250px;
+    }
+}
+
+
+/* Media queries Mobile */
+@media (max-width: 480px) {
+    #home {
+        margin-left: 5px;
+        margin-right: 100px;
+        margin-top: -40px;
+    }
+    #logo {
+        font-size: 25px;
+    }
+    li {
+        display: none;
+    }
+    #intro {
+        margin-bottom: 500px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 100px;
+    }
+    .front-link {
+        width: 320px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .front {
+        font-size: 45px;
+        width: 650px;
+        margin-bottom: 10px;
+    }
+    .dev {
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    .intro-link {
+        margin-left: -3px;
+        margin-top: 39px;
+        height: 8px;
+        width: 133px;
+    }
+    .intro-p {
+        font-size: 22px;
+        width: 355px;
+        margin-bottom: 220px;
+        display: block;
+    }
+    .social-links {
+        font-size: 20px;
+        display: inline-block;
+        /* margin-right: 0; */
+    }
+    .nav-contact {
+        margin-left: 20px;
+        margin-top: -245px;
+        margin-right: -190px;
+    }
+    /* about */
+    #about {
+        margin-left: 20px;
+        margin-top: -400px;
+    }
+    .about-info > h1 {
+        font-size: 30px;
+        width: 600px;
+    }
+    .about-info > p {
+        display: block;
+        width: 342px;
+        font-size: 20px;
+    }
+    .about-span {
+        font-size: 18px;
+    }
+    .about-column1,
+    .about-column2{
+        display: inline-block;
+        margin-right: 9px;
+        vertical-align: top;
+    }
+    .about-link {
+        margin-left: -270px;
+    }
+    /* projecten */
+    .project {
+        margin-right: 100px;
+    }
+    .projects-h1 {
+        font-size: 35px;
+        margin: 15px;
+        width: 400px;
+        margin-bottom: 5px;
+    }
+    .project > p{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid white;
+        width: 100px;
+        padding: 7px;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    hr {
+        width: 375px;
+    }
+    
+    /* contact */
+    #contact {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+    .contact-title1 {
+        font-size: 50px;
+    }
+    .contact-title2 {
+        font-size: 50px;
+        margin-right: 10px;
+    }
+    #contact h3  {
+        font-size: 30px;
+    }
+    .contact-h1, .contact-h2, .contact-h3 {
+        font-size: 25px;
+    }
+    .intro-link3 {
+        width: 155px;
+    }
+    .contact-h3 {
+        margin-top: 50px;
+        margin-left: -3px;
+    }
+    .intro-link4 {
+        margin-left: 195px;
+        width: 130px;
+    }
+    .contact-h2 {
+        margin-left: 200px;
+    }
+    .intro-link5 {
+        margin-top: 70px;
+        margin-left: -5px;
+        width: 100px;
+    }
+    #contact p {
+        margin-bottom: 10px;
+    }
+}
+
+/* Media queries Mobile Android */
+@media (max-width: 480px) {
+    .about-link {
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    .about-info > p {
+        width: 320px;
+    }
+    .front-link {
+        width: 280px;
+    }
+    .front {
+        font-size: 40px;
+    }
+    .dev {
+        font-size: 50px
+    }
+    .nav-contact {
+        margin-left: 0px;
+    }
+    .intro-p{
+        margin-bottom: 100px;
+    }
+}
