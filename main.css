@@ -96,14 +96,12 @@ li {
     margin-right: 850px;
 }
 .intro-socials {
-    margin-left: 0px;
     text-align: right;
 
 }
 .social-links {
     display: inline-block;
     margin-right: 30px;
-    margin-bottom: 200px;
 }
 .social-links:hover {
     color: grey;
@@ -111,6 +109,7 @@ li {
 
 /* about */
 #about {
+    margin-top: 200px;
     margin-left: 60px;
     margin-bottom: 150px;
 }
@@ -558,4 +557,3 @@ hr {
         margin-left: 1px;
     }
 }
-
