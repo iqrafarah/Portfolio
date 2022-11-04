@@ -389,19 +389,21 @@ hr {
         margin-left: 0px;
         margin-top: 200px;
         margin-bottom: 300px;
+        text-align: left;
     }
     /* about */
     #about {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: -400px;
     }
     .about-info > h1 {
         font-size: 30px;
         width: 600px;
+        margin-left: 20px;
     }
     .about-info > p {
         display: block;
-        width: 360px;
+        width: 320px;
         margin-left: 20px;
         font-size: 20px;
     }
@@ -410,12 +412,13 @@ hr {
     }
     .about-column1,
     .about-column2{
+        margin-left: 10px;
         display: inline-block;
-        margin-right: 9px;
+        margin-right: 7px;
         vertical-align: top;
     }
     .about-link {
-        margin-left: -270px;
+        margin-left: 100px;
     }
     /* projecten */
     .project {
@@ -438,7 +441,7 @@ hr {
         text-align: center;
         display: inline-block;
         margin-bottom: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     hr {
         width: 375px;
@@ -454,7 +457,7 @@ hr {
     }
     .contact-title2 {
         font-size: 50px;
-        margin-right: 10px;
+        margin-right: 30px;
     }
     #contact h3  {
         font-size: 30px;
@@ -482,15 +485,23 @@ hr {
         width: 100px;
     }
     #contact p {
-        margin-bottom: 10px;
+        margin-bottom: 90px;
     }
 }
 
 /* Media queries Mobile Android */
-@media (max-width: 480px) {
+@media (max-width: 360px) {
+    .about-info > h1 {
+        font-size: 30px;
+        width: 600px;
+        margin-left: 0px;
+    }
     .about-link {
         margin-left: 90px;
         margin-top: 50px;
+    }
+    #about {
+        margin-left: 15px;
     }
     .about-info > p {
         width: 320px;
