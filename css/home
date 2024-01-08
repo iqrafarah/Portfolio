@@ -72,6 +72,7 @@ a {
 }
 button {
   background-color: var(--purple);
+  color: black;
   border: none;
   font-size: 1rem;
   padding: 10px 20px;
@@ -369,7 +370,7 @@ button {
 }
 .project-img img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   margin-top: 20px;
 }
 
@@ -555,7 +556,9 @@ button {
   .project-link {
     cursor: pointer;
   }
-  .project-link img {
+  
+}
+.project-link img {
     background-color: var(--purple);
     border-radius: 50px;
     width: 12px;
@@ -563,12 +566,11 @@ button {
     outline: 2px solid var(--purple);
     margin: 0 10px;
   }
-  .home img {
+.home img {
     transform: scaleX(-1);
     object-fit: cover;
     margin-top: 25px;
   }
-}
 .custom-alert {
   position: fixed;
   top: 35%;
