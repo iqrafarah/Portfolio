@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iqra Farah • Front-end Developer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/project-detail.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="menu" class="menu">
+        <div class="logo">
+          <a href="index.html"><img src="./images/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-btn">
+          <button
+            class="btn"
+            onclick="copyToClipboard('iqrafarah02@hotmail.com')"
+          >
+            <img src="./images/star.png" />Let's Talk
+          </button>
+          <div id="alert" class="custom-alert" style="display: none">
+            <img src="./images/star.png" /> Coppied TO CLIPBOARD
+          </div>
+        </div>
+      </div>
+      <div class="project"></div>
+    </div>
+  </body>
+</html>

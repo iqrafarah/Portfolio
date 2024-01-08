@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iqra Farah • Front-end Developer</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,300,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="menu" class="menu">
+        <div class="logo">
+          <a href="index.html"><img src="./images/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-btn">
+          <button class="btn" onclick="copyToClipboard('iqrafarah02@hotmail.com')">
+              <img src="./images/star.png" />Let's Talk
+          </button>
+          <div id="alert" class="custom-alert" style="display: none;">
+            <img src="./images/star.png"/> Coppied TO CLIPBOARD
+          </div>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="header-content">
+          <div class="header-titles">
+            <h1>Frontend</h1>
+            <h1 class="header-title">Developer</h1>
+          </div>
+          <div class="circle">
+            <img src="./images/scroll.png" alt="circle" />
+          </div>
+        </div>
+      </div>
+
+      <!-- About me -->
+      <div id="About" class="about-container">
+        <div class="about">
+          <div class="about-content">
+            <button class="btn">About Me</button>
+            <h2 class="about-title">
+              Hello! my Name is Iqra. A Frontend Developer. Who's Passionate
+              About Creating Websites.
+            </h2>
+            <p class="about-text">
+             I am currently studying Software Development at ROC Tilburg, focusing on web development. Besides my studies, I've gained valuable experience through working with WordPress and Webflow, which has led to creating successful websites. 
+            My passion for learning, along with my creativity and determination, keep me going. I love brainstorming ideas, designing them and bringing them to life. These qualities help me to adapt, take on challenges and create innovative solutions. 
+            </p>
+
+            <div id="Services" class="tech">
+              <span>Here are a few technologies i've been working with:</span>
+              <div class="tech-icons-container">
+                <div class="tech-icons">
+                  <li>JavaScript</li> 
+                  <li>React</li> 
+                  <li>Html & CSS</li> 
+                </div>
+                <div class="tech-icons">
+                  <li>Nodejs</li> 
+                  <li>Mysql</li> 
+                  <li>Wordpress</li> 
+
+                </div>
+              </div>
+            </div>
+
+            <!-- services -->
+            <div class="services-container">
+                <div class="services-slider">
+
+              <div class="services">
+                <div class="services-item">
+                  <span class="services-dot"></span>
+                  <h3 class="services-title">Website Design</h3>
+                  <p class="services-text">
+                    I am focused on creating creative user interfaces. With Figma, I design to create experiences that are easy and intuitive for users.                  </p>
+                </div>
+
+                <div class="services-item">
+                  <span class="services-dot"></span>
+                  <h3 class="services-title">Website development</h3>
+                  <p class="services-text">
+                    I possess the ability to create websites using various methods. Whether it involves programming from the ground up or using user-friendly platforms such as WordPress or Webflow                  </p>
+                </div>
+
+                <div class="services-item">
+                  <span class="services-dot"></span>
+                  <h3 class="services-title">Website Maintenance</h3>
+                  <p class="services-text">
+                    Capable of testing websites thoroughly and providing ongoing maintenance to ensure smooth functionality.
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- projectes -->
+      <div id="work" class="work-container">
+        
+        <div class="work">
+          <div class="work-header">
+          <h3 class="work-title">
+            <img class="work-flower" src="./images/flower.png" alt="flower" />Selected Works
+          </h3>
+          </div>
+          <div class="work-items"></div>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div id="contact" class="contact-container">
+        <div class="contact">
+          <div class="contact-content">
+            <div class="top-content">
+              <p>
+                Front-End Developer <br>  Portfolio / 2024
+              </p>
+
+              <p>
+                Based in Noord-Brabant <br> Netherlands
+              </p>
+            </div>
+            <div class="middle-content">
+            <h2 class="contact-title">Get in touch</h2>
+            <p class="contact-text">
+                Feel free to ask a question or if you just want to say hi, I'll do my best to get back to you!            </p>
+            </div>
+
+            <div class="bottom-content">
+              <p class="copyright">© 2024 Iqra Farah</p>
+
+              <div class="socials">
+                <a href="https://github.com/iqrafarah" target="_blank" rel="noreferrer"><button>Github</button></a>
+                <a href="https://www.linkedin.com/in/iqra-farah" target="_blank" rel="noreferrer"><button>Linkedin</button></a>
+                <a href="https://www.instagram.com/iqrafarah.nl/" target="_blank" rel="noreferrer"><button>Instagram</button></a>
+
+              </div>
+            <p class="top" onclick="goToTop(event)">Back to top</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
