@@ -334,11 +334,12 @@ button {
   background-color: var(--purple);
 }
 .project {
+  z-index: 999;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 50px;
-  animation: fade-down 2s;
+  animation: fade-up 2s;
 }
 .project-detail {
   display: flex;
