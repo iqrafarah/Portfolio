@@ -339,7 +339,7 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 50px;
-  animation: fade-up 2s;
+  animation: fade-up 1s;
 }
 .project-detail {
   display: flex;
