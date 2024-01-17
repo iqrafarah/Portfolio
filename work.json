@@ -6,7 +6,8 @@
       "image": "images/advokat.png",
       "full_image": ["images/advokat-full.jpeg", "images/advokat-full2.jpeg"],
       "techs": ["WordPress", "Elementor"],
-      "description": "Creating a law firm website using Elementor and Flexbox isn't entirely new to me—I've tackled similar projects in the past. However, each experience brings its own unique challenges and opportunities for growth.",
+      "description": "Creating a law firm website using Elementor and Flexbox isn't entirely new to me I've tackled similar projects in the past. However, each experience brings its own unique challenges and opportunities for growth.",
+      "learned": "I've gained a better understanding of using flexbox to create layouts that adapt well to different screens, making the website more user-friendly.",
       "url": "https://advokat.iqrafarah.nl/"
     },
     {
@@ -15,7 +16,8 @@
       "image": "images/ultra.png",
       "full_image": "images/ultra-full.jpeg",
       "techs": ["WordPress", "Elementor"],
-      "description": "Crafting a corporate website for practice using Elementor and Flexbox was an incredibly enriching experience. It provided me with invaluable insights into creating layouts and improving responsiveness by extensively utilizing Flexbox. This hands-on project not only enhanced my proficiency in WordPress but also deepened my expertise in developing user-friendly interfaces tailored for corporate environments.",
+      "description": "Creating a business website to practice with Elementor and Flexbox was an experience. It gave me valuable insights into creating layouts and improving responsiveness through extensive use of Flexbox. This hands-on project not only increased my proficiency in WordPress, but also deepened my expertise in developing user-friendly websites.",
+      "learned": "I learned how to share the right amount of information on a landing page, making sure it's clear and not too much.",
       "url": "https://ultra.iqrafarah.nl/"
     },
     {
@@ -24,7 +26,8 @@
       "image": "images/notes.png",
       "full_image": ["images/notes-full1.png", "images/notes-full2.png"],
       "techs": ["Html&css", "JavaScript"],
-      "description": "My classmate and I collaborated on a school assignment to create a notes app using JavaScript, HTML, and CSS. We utilized local storage to save data. One interesting feature we added was the ability to dictate notes using voice input and play them back. This feature allowed users to speak their notes, which would then be converted to text and stored. Additionally, users could listen to the recorded notes for playback. It was an engaging functionality that introduced a unique way of creating and interacting with notes in the app.",
+      "description": "My classmate and I collaborated on a school assignment to create a notes app using JavaScript, HTML, and CSS. We utilized local storage to save data. One interesting feature we added was the ability to dictate notes using voice input and play them back. This feature allowed users to speak their notes, which would then be converted to text and stored. Additionally, users could listen to the recorded notes for playback.",
+      "learned": "Making this notes app taught me how to add voice input and playback features.",
       "url": "https://iqrafarah.github.io/notes/"
     },
     {
@@ -34,6 +37,7 @@
       "full_image": ["images/adrienne-full.jpeg", "images/adrienne-full2.jpeg"],
       "techs": ["WordPress", "Elementor"],
       "description": "Creating a website for practice using Elementor and Flexbox was a fantastic learning experience for me. I gained valuable insights into crafting layouts and enhancing responsiveness by working extensively with Flexbox. This hands-on project strengthened my WordPress skills and deepened my understanding of building user-friendly interfaces.",
+      "learned": "I now understand how to use flexbox for creating layouts that smoothly adapt to different screens, making the website more user-friendly.",
       "url": "https://adrienne.iqrafarah.nl/"
     },
     {
@@ -43,6 +47,7 @@
       "full_image": ["images/kras-full.png", "images/kras-full2.jpeg"],
       "techs": ["Html&css", "JavaScript"],
       "description": "Kras Hosting was a collaborative school assignment with three classmates using the Scrum method for the first time. We reached about 90% completion, which felt like a win for our first attempt. Our website allowed users to order hosting packages. Throughout this project, we learned a ton. Using Scrum improved our task management, and adding an admin interface for orders, packages, and a blog was a big step for us.",
+      "learned": "Trying out the Scrum method in our project taught me to break tasks into smaller parts, set short-term goals, and have regular team meetings for updates.",
       "url": "https://krashosting-lite.tobiasvandeven.nl/"
     }
   ]

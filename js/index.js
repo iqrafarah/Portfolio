@@ -1,17 +1,3 @@
-// function to copy email to clipboard
-function copyToClipboard(email) {
-  const dummy = document.createElement("input");
-  document.body.appendChild(dummy);
-  dummy.value = email;
-  dummy.select();
-  document.execCommand("copy");
-  document.body.removeChild(dummy);
-
-  const alertBox = document.getElementById("alert");
-  alertBox.style.display = "block";
-  setTimeout(() => (alertBox.style.display = "none"), 2000);
-}
-
 const workItems = document.querySelector(".work-items");
 
 fetch("./work.json")
@@ -29,24 +15,14 @@ fetch("./work.json")
       })
       .catch((error) => console.log(error));
   });
-
-const elements = document.querySelectorAll(
-  ".about-container, .work-container, .contact-container, .header-titles"
-);
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.style.animation = "fade-down 2s forwards";
-    } else {
-      entry.target.style.animation = "fade-up 2s forwards";
-    }
+document.querySelectorAll(".nav a").forEach((link) => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    let target = document.querySelector(this.getAttribute("href"));
+    let navbarHeight = document.querySelector(".nav").offsetHeight;
+    window.scrollTo({
+      top: target.offsetTop - navbarHeight,
+      behavior: "smooth",
+    });
   });
 });
-
-elements.forEach((element) => observer.observe(element));
-
-function goToTop(event) {
-  event.preventDefault(); // Prevent the default action
-  window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to the top of the page
-}

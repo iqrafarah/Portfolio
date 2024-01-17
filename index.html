@@ -22,17 +22,16 @@
           <ul>
             <li><a href="#About">About</a></li>
             <li><a href="#Services">Services</a></li>
-            <li><a href="#work">Projects</a></li>
+            <li><a href="#Work">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div class="menu-btn">
-          <button class="btn" onclick="copyToClipboard('iqrafarah02@hotmail.com')">
+           <a href="mailto:iqrafarah02@hotmail.com"
+            ><button class="btn">
               <img src="./images/star.png" />Let's Talk
-          </button>
-          <div id="alert" class="custom-alert" style="display: none;">
-            <img src="./images/star.png"/> Coppied TO CLIPBOARD
-          </div>
+            </button></a
+          >
         </div>
       </div>
 
@@ -71,9 +70,9 @@
                   <li>Html & CSS</li> 
                 </div>
                 <div class="tech-icons">
-                  <li>Nodejs</li> 
-                  <li>Mysql</li> 
                   <li>Wordpress</li> 
+                  <li>Mysql</li> 
+                  <li>Nodejs</li> 
 
                 </div>
               </div>
@@ -113,12 +112,11 @@
       </div>
 
       <!-- projectes -->
-      <div id="work" class="work-container">
-        
+      <div  class="work-container">
         <div class="work">
           <div class="work-header">
-          <h3 class="work-title">
-            <img class="work-flower" src="./images/flower.png" alt="flower" />Selected Works
+          <h3 class="work-title" id="Work">
+            Selected Works
           </h3>
           </div>
           <div class="work-items"></div>
