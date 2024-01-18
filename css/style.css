@@ -404,7 +404,9 @@ button {
     border-radius: 50px;
     margin-left: 100px;
   }
-
+  .menu {
+    padding: 20px 3.5vw;
+  }
   .nav ul li {
     display: inline-block;
     padding: 0 20px;
@@ -434,7 +436,7 @@ button {
   }
 
   .about-container {
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .about {
     padding: 50px;

@@ -26,3 +26,11 @@ document.querySelectorAll(".nav a").forEach((link) => {
     });
   });
 });
+
+function goToTop(event) {
+  event.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
