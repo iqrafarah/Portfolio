@@ -2,53 +2,73 @@
   "work": [
     {
       "id": "1",
-      "title": "Advokat",
+      "title": "Advokat Lawfirm",
+      "small_title": "Design & Development",
       "image": "images/advokat.png",
       "full_image": ["images/advokat-full.jpeg", "images/advokat-full2.jpeg"],
       "techs": ["WordPress", "Elementor"],
+      "small_description": "Building a law firm website with Elementor, using Flexbox for a smooth and user-friendly design.",
       "description": "Creating a law firm website using Elementor and Flexbox isn't entirely new to me I've tackled similar projects in the past. However, each experience brings its own unique challenges and opportunities for growth.",
       "learned": "I've gained a better understanding of using flexbox to create layouts that adapt well to different screens, making the website more user-friendly.",
       "url": "https://advokat.iqrafarah.nl/"
     },
     {
       "id": "2",
-      "title": "Ultra Edge",
-      "image": "images/ultra.png",
-      "full_image": "images/ultra-full.jpeg",
-      "techs": ["WordPress", "Elementor"],
-      "description": "Creating a business website to practice with Elementor and Flexbox was an experience. It gave me valuable insights into creating layouts and improving responsiveness through extensive use of Flexbox. This hands-on project not only increased my proficiency in WordPress, but also deepened my expertise in developing user-friendly websites.",
-      "learned": "I learned how to share the right amount of information on a landing page, making sure it's clear and not too much.",
-      "url": "https://ultra.iqrafarah.nl/"
+      "title": "Note IT",
+      "image": "images/notes.png",
+      "small_title": "Design & Development",
+      "full_image": ["images/notes-full1.png", "images/notes-full2.png"],
+      "techs": ["Html&css", "JavaScript"],
+      "small_description": "For a school project a classmate and i created a notes app with JavaScript, HTML, and CSS. Used local storage for data persistence. Unique feature: voice input for dictating notes, converted to text and stored.",
+      "description": "My classmate and I collaborated on a school assignment to create a notes app using JavaScript, HTML, and CSS. We utilized local storage to save data. One interesting feature we added was the ability to dictate notes using voice input and play them back. This feature allowed users to speak their notes, which would then be converted to text and stored. Additionally, users could listen to the recorded notes for playback.",
+      "learned": "Making this notes app taught me how to add voice input and playback features.",
+      "url": [
+        "https://iqrafarah.github.io/notes/",
+        "https://github.com/iqrafarah/notes"
+      ]
     },
     {
       "id": "3",
-      "title": "Note It",
-      "image": "images/notes.png",
-      "full_image": ["images/notes-full1.png", "images/notes-full2.png"],
+      "title": "Movie Box",
+      "small_title": "Design & Development",
+      "image": "images/bios1.png",
+      "full_image": [
+        "images/bios1.png",
+        "images/bios2.png",
+        "images/bios3.png"
+      ],
       "techs": ["Html&css", "JavaScript"],
-      "description": "My classmate and I collaborated on a school assignment to create a notes app using JavaScript, HTML, and CSS. We utilized local storage to save data. One interesting feature we added was the ability to dictate notes using voice input and play them back. This feature allowed users to speak their notes, which would then be converted to text and stored. Additionally, users could listen to the recorded notes for playback.",
-      "learned": "Making this notes app taught me how to add voice input and playback features.",
-      "url": "https://iqrafarah.github.io/notes/"
+      "small_description": "Discover our cinema app, where you can easily register, order your favorite movies, and cast your vote for our exciting Friday Movie Night selections.",
+      "description": "Our teacher gave us the databases and APIs required for our cinema app. Users can register, log in, and order movies seamlessly. They can also search and vote for Friday Movie Night selections. Admins have the ability to create and delete movies, making the experience straightforward. We're using the provided databases and APIs to manage our film collection.",
+      "learned": "I've learned the value of simplicity and accessibility. Creating an easy-to-use website is key. I focus on what makes sense and arrange features based on what users would find most useful.",
+      "url": ["https://github.com/iqrafarah/Bioscoop-app"]
     },
     {
       "id": "4",
-      "title": "Adrienne",
-      "image": "images/adrienne.png",
-      "full_image": ["images/adrienne-full.jpeg", "images/adrienne-full2.jpeg"],
-      "techs": ["WordPress", "Elementor"],
-      "description": "Creating a website for practice using Elementor and Flexbox was a fantastic learning experience for me. I gained valuable insights into crafting layouts and enhancing responsiveness by working extensively with Flexbox. This hands-on project strengthened my WordPress skills and deepened my understanding of building user-friendly interfaces.",
-      "learned": "I now understand how to use flexbox for creating layouts that smoothly adapt to different screens, making the website more user-friendly.",
-      "url": "https://adrienne.iqrafarah.nl/"
-    },
-    {
-      "id": "5",
       "title": "Kras hosting",
+      "small_title": "Design & Development",
       "image": "images/krashosting.png",
       "full_image": ["images/kras-full.png", "images/kras-full2.jpeg"],
       "techs": ["Html&css", "JavaScript"],
-      "description": "Kras Hosting was a collaborative school assignment with three classmates using the Scrum method for the first time. We reached about 90% completion, which felt like a win for our first attempt. Our website allowed users to order hosting packages. Throughout this project, we learned a ton. Using Scrum improved our task management, and adding an admin interface for orders, packages, and a blog was a big step for us.",
+      "small_description": "Teamed up with three classmates for a school project—created a platform for ordering hosting packages. Implemented an admin dashboard to view all orders and blogs.",
+      "description": "Kras Hosting was a school assignment with three classmates using the Scrum method for the first time. We reached about 90% completion, which felt like a win for our first attempt. Our website allowed users to order hosting packages. Throughout this project, we learned a ton. Using Scrum improved our task management, and adding an admin interface for orders, packages, and a blog was a big step for us.",
       "learned": "Trying out the Scrum method in our project taught me to break tasks into smaller parts, set short-term goals, and have regular team meetings for updates.",
-      "url": "https://krashosting-lite.tobiasvandeven.nl/"
+      "url": [
+        "https://krashosting-lite.tobiasvandeven.nl/",
+        "https://github.com/Toby142/krashosting-frontend"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Ultra Edge",
+      "small_title": "Design & Development",
+      "image": "images/ultra.png",
+      "full_image": "images/ultra-full.jpeg",
+      "techs": ["WordPress", "Elementor"],
+      "small_description": "Built a business website on my own to sharpen Elementor's skills. I learned how to create layouts, improved responsiveness with Flexbox, and improved my WordPress skills",
+      "description": "Creating a business website to practice with Elementor and Flexbox was an experience. It gave me valuable insights into creating layouts and improving responsiveness through extensive use of Flexbox. This hands-on project not only increased my proficiency in WordPress, but also deepened my expertise in developing user-friendly websites.",
+      "learned": "I learned how to share the right amount of information on a landing page, making sure it's clear and not too much.",
+      "url": "https://ultra.iqrafarah.nl/"
     }
   ]
 }
