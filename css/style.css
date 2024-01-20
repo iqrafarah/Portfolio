@@ -48,6 +48,7 @@ body {
   margin: -3.5vw;
   background-color: var(--main-bg-color);
   z-index: 999;
+  margin: 0;
 }
 
 .logo img {
@@ -162,7 +163,6 @@ button {
 .about-title-small {
   font-size: 1.4rem;
   font-weight: normal;
-  margin-bottom: 20px;
   text-align: center;
   color: var(--purple);
   text-transform: capitalize;
@@ -826,5 +826,11 @@ button {
   }
   .about {
     margin-top: 300px;
+  }
+  .work-text {
+    max-width: 50%;
+  }
+  p.about-title-small {
+    max-width: 100%;
   }
 }
