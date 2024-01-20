@@ -824,4 +824,7 @@ button {
     max-width: 2000px;
     margin: 20px 2vw;
   }
+  .about {
+    margin-top: 300px;
+  }
 }
