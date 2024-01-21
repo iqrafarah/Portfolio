@@ -38,7 +38,7 @@ fetch("./work.json")
                       .map((url) => {
                         let buttonText = url.includes("github.com")
                           ? "Go to Github"
-                          : "Go to website";
+                          : "View website";
                         return `<a href="${url}" target="_blank" rel="noreferrer"><button class="project-link">${buttonText} <img src="https://uploads-ssl.webflow.com/622dbec40bef54e41bd8c025/624e1597a7e64a2fc7c3e40a_arrow__cta.svg"></button></a>`;
                       })
                       .join(" ")
