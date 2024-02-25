@@ -255,6 +255,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 50px;
+  position: relative;
 }
 .work-item span {
   font-size: 0.7rem;
@@ -357,6 +358,7 @@ button {
   gap: 20px;
   height: 100%;
   border-radius: 10px;
+  position: relative;
 }
 .experience-item .experience-title {
   font-size: 1.7rem;
