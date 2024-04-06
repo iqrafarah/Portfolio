@@ -6,9 +6,7 @@ fetch("./work.json")
     const projects = data;
     projects.work.map((item) => {
       workItems.innerHTML += `
-      
-
-            <div class="work-item">
+                <div class="work-item">
               <div class="item-img">
                 <img src="${item.image}" alt="${item.title}" />
               </div>

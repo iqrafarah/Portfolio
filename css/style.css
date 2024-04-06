@@ -6,14 +6,16 @@
 html {
   scroll-behavior: smooth;
 }
+
 :root {
   --main-bg-color: #0c070c;
   --text-color: #fff;
-  --dark-gray-container: #100a10;
-  --dark-gray-items: #130e13;
+  --dark-gray-container: #141314;
+  --dark-gray-items: #191819;
   --dark-gray-text: #a3a3a3;
   --purple: #b0a3ff;
 }
+
 body {
   background-color: var(--main-bg-color);
   color: var(--text-color);
@@ -162,10 +164,9 @@ button {
 
 .about-title-small {
   font-size: 1.4rem;
-  font-weight: normal;
+  font-weight: 500;
   text-align: center;
   color: var(--purple);
-  text-transform: capitalize;
 }
 .tech-icons {
   display: flex;
@@ -239,7 +240,7 @@ button {
   margin-bottom: 20px;
   text-align: center;
   color: var(--purple);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .work-text {
   font-size: 1.4rem;
@@ -264,7 +265,7 @@ button {
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 20px;
-  background-color: #201c20;
+  background-color: #282828;
 }
 .item-tech {
   display: flex;
@@ -613,7 +614,6 @@ button {
   }
   .about-title-small {
     font-size: 1vw;
-    text-transform: uppercase;
   }
   .services {
     flex-direction: row;
@@ -629,6 +629,7 @@ button {
   /* projects */
   .work-title {
     font-size: 1vw;
+    font-weight: 500;
     letter-spacing: 0.05em;
   }
   .work-header {
@@ -641,7 +642,6 @@ button {
     text-align: center;
     max-width: 520px;
     line-height: 1.3em;
-    text-transform: capitalize;
   }
   .work-item {
     display: flex;
@@ -679,7 +679,7 @@ button {
     text-transform: uppercase;
   }
   .item-content h2 {
-    font-size: 2.5vw;
+    font-size: 2.1vw;
     font-weight: 600;
     margin-bottom: 10px;
   }

@@ -2,15 +2,24 @@
   "work": [
     {
       "id": "1",
-      "title": "Advokat Lawfirm",
+      "title": "Finance Tracker",
       "small_title": "Design & Development",
-      "image": "images/advokat.png",
-      "full_image": ["images/advokat-full.jpeg", "images/advokat-full2.jpeg"],
-      "techs": ["WordPress", "Elementor"],
-      "small_description": "Building a law firm website with Elementor, using Flexbox for a smooth and user-friendly design.",
-      "description": "Creating a law firm website using Elementor and Flexbox isn't entirely new to me I've tackled similar projects in the past. However, each experience brings its own unique challenges and opportunities for growth.",
-      "learned": "I've gained a better understanding of using flexbox to create layouts that adapt well to different screens, making the website more user-friendly.",
-      "url": "https://advokat.iqrafarah.nl/"
+      "image": "images/dash.png",
+      "full_image": [
+        "images/dashboard.png",
+        "images/transaction.png",
+        "images/lesson.png",
+        "images/profile.png",
+        "images/admindash.png",
+        "images/upload.png",
+        "images/adminlesson.png"
+      ],
+      "techs": ["React", "Node.js", "Express", "MongoDB"],
+
+      "small_description": "Developing a dynamic finance dashboard using MERN stack, featuring transaction tracking, goal setting, and personalized finance tips.",
+      "description": "Finance tracker called FinSmart. It was built using the MERN stack, which helped in making a place where people can easily watch their spending and save up for things they want.",
+      "learned": "From the FinSmart project, I improved my Node.js skills and learned to make things easier for users. I got better at coding with Node.js and understood how important it is to focus on what users need. Making the dashboard user-friendly was a big lesson for me.",
+      "url": "https://github.com/iqrafarah/finsmart"
     },
     {
       "id": "2",
@@ -60,15 +69,15 @@
     },
     {
       "id": "5",
-      "title": "Ultra Edge",
+      "title": "Advokat Lawfirm",
       "small_title": "Design & Development",
-      "image": "images/ultra.png",
-      "full_image": "images/ultra-full.jpeg",
+      "image": "images/advokat.png",
+      "full_image": ["images/advokat-full.jpeg", "images/advokat-full2.jpeg"],
       "techs": ["WordPress", "Elementor"],
-      "small_description": "Built a business website on my own to sharpen Elementor's skills. I learned how to create layouts, improved responsiveness with Flexbox, and improved my WordPress skills",
-      "description": "Creating a business website to practice with Elementor and Flexbox was an experience. It gave me valuable insights into creating layouts and improving responsiveness through extensive use of Flexbox. This hands-on project not only increased my proficiency in WordPress, but also deepened my expertise in developing user-friendly websites.",
-      "learned": "I learned how to share the right amount of information on a landing page, making sure it's clear and not too much.",
-      "url": "https://ultra.iqrafarah.nl/"
+      "small_description": "Building a law firm website with Elementor, using Flexbox for a smooth and user-friendly design.",
+      "description": "Creating a law firm website using Elementor and Flexbox isn't entirely new to me I've tackled similar projects in the past. However, each experience brings its own unique challenges and opportunities for growth.",
+      "learned": "I've gained a better understanding of using flexbox to create layouts that adapt well to different screens, making the website more user-friendly.",
+      "url": "https://advokat.iqrafarah.nl/"
     }
   ]
 }
